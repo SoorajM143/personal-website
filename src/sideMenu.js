@@ -9,6 +9,9 @@ function SideMenu() {
   const showSidemenu = () => {
     setSidemenu(!sideMenu);
   };
+  const closeSideMenu = () => {
+    setSidemenu(!sideMenu);
+  };
 
   return (
     <div>
@@ -24,16 +27,24 @@ function SideMenu() {
         <nav>
           <ol>
             <li className="sideMenu__about">
-              <a href="/#about">1. About</a>
+              <a href="/#about" onClick={closeSideMenu}>
+                1. About
+              </a>
             </li>
             <li className="sideMenu__exp">
-              <a href="/#work">2. Experience</a>
+              <a href="/#work" onClick={closeSideMenu}>
+                2. Experience
+              </a>
             </li>
             <li className="sideMenu__project">
-              <a href="/#projects">3. Projects</a>
+              <a href="/#projects" onClick={closeSideMenu}>
+                3. Projects
+              </a>
             </li>
             <li className="sideMenu__contact">
-              <a href="/#contact">4. Contact</a>
+              <a href="/#contact" onClick={closeSideMenu}>
+                4. Contact
+              </a>
             </li>
           </ol>
           <a
