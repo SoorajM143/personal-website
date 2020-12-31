@@ -79,27 +79,44 @@ function MainContent() {
                   </p>
                   <p>
                     I graduated from&nbsp;
-                    <a href="https://www.cusat.ac.in/" target="_blank">
+                    <a
+                      href="https://www.cusat.ac.in/"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
                       Cochin University
                     </a>
                     &nbsp;with a bachelors degree in engineering. Following
                     which I worked at&nbsp;
-                    <a href="https://www.wipro.com/" target="_blank">
+                    <a
+                      href="https://www.wipro.com/"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
                       Wipro
                     </a>
                     &nbsp;as a software developer for clients such as&nbsp;
-                    <a href="https://www.walmart.com.mx/" target="_blank">
+                    <a
+                      href="https://www.walmart.com.mx/"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
                       Walmart Mexico,&nbsp;
                     </a>
                     <a
                       href="https://www.qatarairways.com/en-ie/homepage.html"
+                      rel="noreferrer"
                       target="_blank"
                     >
                       Qatar Airways,&nbsp;
                     </a>
                     <a href="https://www.easyjet.com/en">easyJet.</a>
                     &nbsp;Finally, I graduated from&nbsp;
-                    <a href="https://www.ul.ie/" target="_blank">
+                    <a
+                      href="https://www.ul.ie/"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
                       University of Limerick
                     </a>
                     &nbsp; with a Masters degree in International Management and
@@ -157,7 +174,11 @@ function MainContent() {
                     <span>Software Engineer</span>
                     <span className="company">
                       &nbsp;@&nbsp;
-                      <a href="https://www.wipro.com/" target="_blank">
+                      <a
+                        href="https://www.wipro.com/"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
                         Wipro
                       </a>
                     </span>
@@ -187,7 +208,11 @@ function MainContent() {
                     <span>Project Engineer</span>
                     <span className="company">
                       &nbsp;@&nbsp;
-                      <a href="https://www.wipro.com/" target="_blank">
+                      <a
+                        href="https://www.wipro.com/"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
                         Wipro
                       </a>
                     </span>
@@ -223,6 +248,7 @@ function MainContent() {
                       &nbsp;@&nbsp;
                       <a
                         href="https://www.facebook.com/ieeetkmit/"
+                        rel="noreferrer"
                         target="_blank"
                       >
                         IEEE
@@ -272,6 +298,7 @@ function MainContent() {
                   <div className="project__link">
                     <a
                       href="https://tops.qatarairways.com/en-ie/homepage.html"
+                      rel="noreferrer"
                       target="_blank"
                     >
                       <LaunchIcon />
@@ -281,6 +308,7 @@ function MainContent() {
                 <div className="project__image">
                   <a
                     href="https://tops.qatarairways.com/en-ie/homepage.html"
+                    rel="noreferrer"
                     target="_blank"
                   >
                     <div className="project__img-wrapper">
@@ -305,13 +333,21 @@ function MainContent() {
                     <li>Spring MVC</li>
                   </ul>
                   <div className="project__link">
-                    <a href="https://www.walmart.com.mx/" target="_blank">
+                    <a
+                      href="https://www.walmart.com.mx/"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
                       <LaunchIcon />
                     </a>
                   </div>
                 </div>
                 <div className="project__image">
-                  <a href="https://www.walmart.com.mx/" target="_blank">
+                  <a
+                    href="https://www.walmart.com.mx/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                     <div className="project__img-wrapper">
                       <img src={Walmart} className="project__img"></img>
                     </div>
@@ -335,6 +371,7 @@ function MainContent() {
                       <div className="project__links">
                         <a
                           href="https://github.com/SoorajM143/Music-player"
+                          rel="noreferrer"
                           target="_blank"
                         >
                           <GitHubIcon />
@@ -369,7 +406,8 @@ function MainContent() {
                       </div>
                       <div className="project__links">
                         <a
-                          href="https://github.com/SoorajM143/personal-portfolio-website"
+                          href="https://github.com/SoorajM143/personal-website"
+                          rel="noreferrer"
                           target="_blank"
                         >
                           <GitHubIcon />
@@ -410,6 +448,7 @@ function MainContent() {
             <a
               className="email__link"
               href="mailto:soorajmohan7@gmail.com"
+              rel="noreferrer"
               target="_blank"
             >
               E-mail me
@@ -421,25 +460,38 @@ function MainContent() {
         <div className="footer__responsive">
           <ul>
             <li>
-              <a href="mailto:soorajmohan7@gmail.com" target="_blank">
+              <a
+                href="mailto:soorajmohan7@gmail.com"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <AlternateEmailIcon />
               </a>
             </li>
             <li>
               <a
                 href="https://www.linkedin.com/in/soorajmohan92/"
+                rel="noreferrer"
                 target="_blank"
               >
                 <LinkedInIcon />
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/SoorajMohan9" target="_blank">
+              <a
+                href="https://twitter.com/SoorajMohan9"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <TwitterIcon />
               </a>
             </li>
             <li>
-              <a href="https://github.com/SoorajM143" target="_blank">
+              <a
+                href="https://github.com/SoorajM143"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <GitHubIcon />
               </a>
             </li>
