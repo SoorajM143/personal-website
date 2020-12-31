@@ -40,7 +40,7 @@ function MainContent() {
   return (
     <div id="content">
       <main className="main__content">
-        <section className="main__content-intro">
+        <section id="intro" className="main__content-intro">
           <div className="main__content__intro-1">
             <h4>Hi, I'm</h4>
           </div>

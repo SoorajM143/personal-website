@@ -16,9 +16,9 @@ function Body() {
         <header className="navBar__header">
           <Fade>
             <div className="navBar__logo">
-              <button>
+              <a href="/#intro">
                 <img src={logo} alt=""></img>
-              </button>
+              </a>
             </div>
           </Fade>
           <nav className="navBar-nav">
