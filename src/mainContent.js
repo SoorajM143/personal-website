@@ -428,7 +428,7 @@ function MainContent() {
                     <ul className="project__tech-list">
                       <li>React</li>
                       <li>Material UI</li>
-                      <li>Firebase</li>
+                      <li>Netlify</li>
                     </ul>
                   </footer>
                 </div>
