@@ -75,7 +75,7 @@ function MainContent() {
                   <p>
                     I love creating websites, applications and other things that
                     live on the internet. My goal always has been to built stuff
-                    that make that is simple and user friendly.
+                    that is simple and user friendly.
                   </p>
                   <p>
                     I graduated from&nbsp;
