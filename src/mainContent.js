@@ -130,9 +130,9 @@ function MainContent() {
                   <li>React</li>
                   <li>Openlayers</li>
                   <li>Node.js</li>
+                  <li>jQuery</li>
                   <li>Java</li>
                   <li>MySQL</li>
-                  <li>PostgreSQL</li>
                 </ul>
               </div>
               <div className="about_image">
