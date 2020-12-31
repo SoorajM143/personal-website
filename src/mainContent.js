@@ -74,8 +74,8 @@ function MainContent() {
                   </p>
                   <p>
                     I love creating websites, applications and other things that
-                    live on the internet. My goal has been is always built stuff
-                    that makes the life of the users easier
+                    live on the internet. My goal always has been to built stuff
+                    that make that is simple and user friendly.
                   </p>
                   <p>
                     I graduated from&nbsp;
@@ -111,7 +111,7 @@ function MainContent() {
                       Qatar Airways,&nbsp;
                     </a>
                     <a href="https://www.easyjet.com/en">easyJet.</a>
-                    &nbsp;Finally, I graduated from&nbsp;
+                    &nbsp;Lately, I graduated from&nbsp;
                     <a
                       href="https://www.ul.ie/"
                       rel="noreferrer"
@@ -131,6 +131,8 @@ function MainContent() {
                   <li>Openlayers</li>
                   <li>Node.js</li>
                   <li>Java</li>
+                  <li>MySQL</li>
+                  <li>PostgreSQL</li>
                 </ul>
               </div>
               <div className="about_image">
@@ -188,8 +190,8 @@ function MainContent() {
                     <ul>
                       <li>
                         Part of the large-scale Agile development team (TOPS –
-                        Total Operations System) for clients such as Qatar
-                        Airways and EasyJet Airline.
+                        Total Operations System) for clients: Qatar Airways and
+                        EasyJet Airline.
                       </li>
                       <li>
                         Designed sleek front-end pages with React in ES6 with
@@ -199,8 +201,7 @@ function MainContent() {
                       <li>
                         Revamped and optimised API -based back end written in
                         Java with Spring using SQL, PostgreSQL handling over
-                        200+ API’s and 25 landing pages, reducing server
-                        response time by 20%
+                        200+ API’s and 25 landing pages.
                       </li>
                     </ul>
                   </div>
