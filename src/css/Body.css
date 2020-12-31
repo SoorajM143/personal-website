@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.body {
+  background-color: #1d1e22;
+  height: 100vh;
+  margin-top: 0;
+  overflow-y: overlay;
+}
+
+.navBar {
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
+}
+
+.navBar-nav {
+  display: flex;
+  align-items: center;
+  min-height: 100px;
+  margin-left: auto;
+  color: #d4d4dc;
+  font-family: 'Inconsolata', monospace;
+}
+
+.navBar__logo {
+  margin-left: 20px;
+}
+
+.list-item {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navBar__nav-about a:hover {
+  color: #feda6a;
+  cursor: pointer;
+}
+.navBar__nav-experience a:hover {
+  color: #feda6a;
+  cursor: pointer;
+}
+.navBar__nav-work a:hover {
+  color: #feda6a;
+  cursor: pointer;
+}
+.navBar__nav-contact a:hover {
+  color: #feda6a;
+  cursor: pointer;
+}
+
+.navBar-nav a {
+  text-decoration: none;
+  color: #d4d4dc;
+}
+
+.navBar__logo {
+  display: flex;
+  color: grey;
+}
+
+.navBar__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  box-shadow: 0 8px 6px -9px rgb(34, 34, 34);
+}
+
+.navBar > h1 {
+  margin-top: 0;
+}
+
+.navBar__nav-cv {
+  margin-right: 25px;
+  border-color: #feda6a;
+  border-style: solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-width: thin;
+  border-radius: 5px;
+}
+
+.nav-cv {
+  color: #feda6a;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+
+.navBar__nav-cv:hover {
+  cursor: pointer;
+  background-color: rgb(56, 55, 55);
+  transition: 200ms ease-in;
+}
+
+.navBar__logo a {
+  width: 80px;
+}
+
+.navBar__logo a img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .navBar-nav {
+    display: none;
+  }
+}

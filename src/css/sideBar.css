@@ -1,0 +1,43 @@
+.sidebar__list {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  align-items: center;
+}
+
+.sidebar__list::after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 9.5em;
+  margin: 0px auto;
+  background-color: grey;
+}
+
+.MuiSvgIcon-root {
+  color: grey;
+}
+
+.vertical-list {
+  padding-bottom: 10px;
+}
+.vertical-list:hover .MuiSvgIcon-root {
+  cursor: pointer;
+  transition: 300ms transform ease-in;
+  transform: scale(1.2);
+  color: #feda6a;
+}
+
+.sideBar {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  .sideBar {
+    display: none;
+  }
+}
