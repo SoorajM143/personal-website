@@ -38,6 +38,7 @@ function Body() {
               <a
                 className="nav-cv"
                 href={pdf}
+                rel="noreferrer"
                 target="_blank"
                 type="application/pdf"
               >

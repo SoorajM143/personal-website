@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 
 import './css/sideMenu.css';
-import MenuIcon from '@material-ui/icons/Menu';
-import CloseIcon from '@material-ui/icons/Close';
 import pdf from './doc/resume.pdf';
 
 function SideMenu() {
@@ -38,7 +36,12 @@ function SideMenu() {
               <a href="/#contact">4. Contact</a>
             </li>
           </ol>
-          <a className="sideMenu__cv" href={pdf} target="_blank">
+          <a
+            className="sideMenu__cv"
+            href={pdf}
+            rel="noreferrer"
+            target="_blank"
+          >
             Resume
           </a>
         </nav>

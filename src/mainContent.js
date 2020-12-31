@@ -20,14 +20,14 @@ function MainContent() {
   const [jobTab2, setJobTab2] = useState(false);
   const [jobDiv2, setJobDiv2] = useState(false);
   const activateJobTab = (id) => {
-    if (id.currentTarget.id == 'tab__01') {
+    if (id.currentTarget.id === 'tab__01') {
       if (!jobTab1) {
         setJobTab1(true);
         setJobDiv1(true);
         setJobTab2(false);
         setJobDiv2(false);
       }
-    } else if (id.currentTarget.id == 'tab__02') {
+    } else if (id.currentTarget.id === 'tab__02') {
       if (!jobTab2) {
         setJobTab2(true);
         setJobDiv2(true);
@@ -135,7 +135,7 @@ function MainContent() {
               </div>
               <div className="about_image">
                 <div className="wrapper">
-                  <img src={image} />
+                  <img src={image} alt="" />
                 </div>
               </div>
             </div>
@@ -312,7 +312,7 @@ function MainContent() {
                     target="_blank"
                   >
                     <div className="project__img-wrapper">
-                      <img src={Qatar} className="project__img"></img>
+                      <img src={Qatar} className="project__img" alt=""></img>
                     </div>
                   </a>
                 </div>
@@ -349,7 +349,7 @@ function MainContent() {
                     target="_blank"
                   >
                     <div className="project__img-wrapper">
-                      <img src={Walmart} className="project__img"></img>
+                      <img src={Walmart} className="project__img" alt=""></img>
                     </div>
                   </a>
                 </div>
@@ -496,9 +496,7 @@ function MainContent() {
               </a>
             </li>
             <li>
-              <a>
-                <InstagramIcon />
-              </a>
+              <InstagramIcon />
             </li>
           </ul>
         </div>
