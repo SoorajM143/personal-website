@@ -98,7 +98,7 @@
   transition: 200ms ease-in;
 }
 
-.navBar__logo a {
+.navBar__logo button {
   width: 80px;
 }
 
