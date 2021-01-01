@@ -5,8 +5,6 @@
 
 
 
-## Created using 
+## Created using React,Material UI and hosted with Netlify
 
-1. React
-2. Material UI 
-3. Netlify
+
