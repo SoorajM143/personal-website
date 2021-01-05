@@ -434,6 +434,39 @@ function MainContent() {
                   </footer>
                 </div>
               </div>
+              <div className="projects">
+                <div className="project__inner">
+                  <header>
+                    <div className="project__top">
+                      <div className="folder">
+                        <AssignmentIcon />
+                      </div>
+                      <div className="project__links">
+                        <a
+                          href="https://github.com/SoorajM143/personal-spotify-profile"
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          <GitHubIcon />
+                        </a>
+                      </div>
+                    </div>
+                    <h3 className="project__title">Personal Spotify Profile</h3>
+                    <div className="project__description">
+                      <p>
+                        A visualising of personal spotify data using Spotify API
+                      </p>
+                    </div>
+                  </header>
+                  <footer>
+                    <ul className="project__tech-list">
+                      <li>React</li>
+                      <li>Spotify API</li>
+                      <li>Material UI</li>
+                    </ul>
+                  </footer>
+                </div>
+              </div>
             </div>
           </section>
         </Fade>
