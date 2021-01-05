@@ -185,7 +185,7 @@ function MainContent() {
                       </a>
                     </span>
                   </h3>
-                  <p className="work__length">March 2017 - August 2020</p>
+                  <p className="work__length">March 2017 - August 2019</p>
                   <div>
                     <ul>
                       <li>
