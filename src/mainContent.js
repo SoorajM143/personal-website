@@ -285,7 +285,7 @@ function MainContent() {
                   <div className="project__description">
                     <p>
                       TOPS or Total OPeratipons System - A complete Airline
-                      management tool developed by Wipro in paternership with
+                      management tool developed by Wipro in patnership with
                       Qatar Airways. TOPS was later purchased by leading
                       airlines such as easyJet and Jetblue.
                     </p>
