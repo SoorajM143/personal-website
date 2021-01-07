@@ -57,7 +57,7 @@ function MainContent() {
             </p>
           </div>
           <div className="main__content_intro-mail">
-            <a className="intro-mail" href="mailto:mohansooraj16@gmail.com">
+            <a className="intro-mail" href="mailto:soorajmohan7@gmail.com">
               Get in Touch
             </a>
           </div>
@@ -481,7 +481,7 @@ function MainContent() {
             </p>
             <a
               className="email__link"
-              href="mailto:mohansooraj16@gmail.com"
+              href="mailto:soorajmohan7@gmail.com"
               rel="noreferrer"
               target="_blank"
             >
@@ -495,7 +495,7 @@ function MainContent() {
           <ul>
             <li>
               <a
-                href="mailto:mohansooraj16@gmail.com"
+                href="mailto:soorajmohan7@gmail.com"
                 rel="noreferrer"
                 target="_blank"
               >

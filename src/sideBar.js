@@ -13,7 +13,7 @@ function SideBar() {
       <ul className="sidebar__list">
         <li className="vertical-list">
           <a
-            href="mailto:mohansooraj16@gmail.com"
+            href="mailto:soorajmohan7@gmail.com"
             rel="noreferrer"
             target="_blank"
           >
