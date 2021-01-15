@@ -51,7 +51,7 @@ function MainContent() {
           <div className="main__content__intro-3">
             <p>
               I'm a software engineer currently based in Limerick, Ireland
-              specilised in buliding sleek, responsive and interactive UI for
+              specilised in building sleek, responsive and interactive UI for
               Apps and websites. Occationally building stuff in the back-end as
               well.
             </p>
@@ -69,8 +69,8 @@ function MainContent() {
               <div className="about__content">
                 <div>
                   <p>
-                    Hello.! I'm Sooraj, a software developer currently based
-                    outof Limerick, Ireland.
+                    Hello.! I'm Sooraj, a software developer currently based out
+                    of Limerick, Ireland.
                   </p>
                   <p>
                     I love creating websites, applications and other things that
