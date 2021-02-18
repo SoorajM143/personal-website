@@ -51,7 +51,7 @@ function MainContent() {
           <div className="main__content__intro-3">
             <p>
               I'm a software engineer currently based in Limerick, Ireland
-              specilised in building sleek, responsive and interactive UI for
+              specialised in building sleek, responsive and interactive UI for
               Apps and websites. Occationally building stuff in the back-end as
               well.
             </p>
@@ -475,9 +475,8 @@ function MainContent() {
             <h2 className="contact">Contact</h2>
             <h2 className="contact_title">Get In Touch</h2>
             <p>
-              I' am currently seeking full-time Front-end roles. If my profile
-              interests you, or you just want to say Hi. Contact me my clicking
-              below, Ciao..!
+              Currently I am not seeking any new position, but if you want to
+              say Hi. Contact me my clicking below, Ciao..!
             </p>
             <a
               className="email__link"
